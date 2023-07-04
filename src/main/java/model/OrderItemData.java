@@ -2,7 +2,7 @@ package model;
 
 public class OrderItemData {
 //    private String barcode;
-    private Integer sellingPrice;
+    private Double sellingPrice;
     private Integer quantity;
     private String productName;
 private Double amt;
@@ -41,11 +41,11 @@ private Double amt;
 //        this.revenue = revenue;
 //    }
 
-    public Integer getSellingPrice() {
+    public Double getSellingPrice() {
         return sellingPrice;
     }
 
-    public void setSellingPrice(Integer sellingPrice) {
+    public void setSellingPrice(Double sellingPrice) {
         this.sellingPrice = sellingPrice;
     }
 

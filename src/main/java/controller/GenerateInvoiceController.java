@@ -1,6 +1,5 @@
 package controller;
 
-import invoice.model.InvoiceForm;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import model.InvoiceData;
@@ -13,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import service.InvoiceService;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,7 +25,7 @@ import java.util.Base64;
 public class GenerateInvoiceController {
 
     @Autowired
-    private InvoiceServie service;
+    private InvoiceService service;
 
     @ApiOperation(value = "Generate Invoice")
     @RequestMapping(path = "/api/invoice", method = RequestMethod.POST)

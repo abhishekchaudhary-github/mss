@@ -8,7 +8,7 @@ import java.util.List;
 
 @Service
 public class InvoiceService {
-    public void generateInvoice(InvoiceData form)
+    public void getInvoice(InvoiceData form)
     {
         List<OrderItemData> items = form.getOrderItemDataList();
         Double amt = 0.0;
