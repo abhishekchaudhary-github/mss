@@ -26,7 +26,6 @@ public class GenerateInvoiceController {
 
     @Autowired
     private InvoiceService service;
-
     @ApiOperation(value = "Generate Invoice")
     @RequestMapping(path = "/api/invoice", method = RequestMethod.POST)
     public ResponseEntity<byte[]> getInvoicePDF(@RequestBody InvoiceData form) throws IOException {

@@ -1,15 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.increff.training</groupId>
-    <artifactId>employee-spring-full</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
 
-    <name>employee-spring</name>
-    <url>http://maven.apache.org</url>
+
+    <groupId>com.increff.training</groupId>
+    <artifactId>invoice-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <!-- Maven configuration -->
@@ -29,11 +29,12 @@
         <h2.version>1.4.200</h2.version>
         <javax.servlet.version>3.1.0</javax.servlet.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
+        <projectlombok.version>1.18.24</projectlombok.version>
 
         <!-- Jetty configuration -->
         <jetty.version>9.4.21.v20190926</jetty.version>
-        <jetty.http.port>8080</jetty.http.port>
-        <jetty.context>/invoice</jetty.context>
+        <jetty.http.port>8085</jetty.http.port>
+        <jetty.context>/fop</jetty.context>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
 
@@ -67,6 +68,17 @@
             <version>4.2.13.RELEASE</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>fop</artifactId>
+            <version>2.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
         <dependency>
@@ -178,36 +190,18 @@
             <version>${javax.servlet.version}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-<!--here-->
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>${projectlombok.version}</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
             <version>2.0.1.Final</version>
-        </dependency>
-
-<!--        for fop-->
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop -->
-        <dependency>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>fop</artifactId>
-            <version>2.8</version>
         </dependency>
 
     </dependencies>
@@ -266,7 +260,6 @@
             </plugin>
 
         </plugins>
-
 
     </build>
 
