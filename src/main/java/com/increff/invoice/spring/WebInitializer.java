@@ -1,9 +1,8 @@
-package com.increff.invoiceapp.spring;
-
+package com.increff.invoice.spring;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-// hook for spring initialization and defines the starting point for spring configuration i.e. SpringConfig.class
+// hook for com.increff.invoice.controller.spring initialization and defines the starting point for com.increff.invoice.controller.spring configuration i.e. SpringConfig.class
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

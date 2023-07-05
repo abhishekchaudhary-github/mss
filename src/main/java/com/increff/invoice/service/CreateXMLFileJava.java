@@ -1,7 +1,7 @@
-package service;
+package com.increff.invoice.service;
 
-import model.InvoiceData;
-import model.OrderItemData;
+import com.increff.invoice.model.InvoiceData;
+import com.increff.invoice.model.OrderItem;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -42,7 +42,7 @@ public class CreateXMLFileJava {
             root.appendChild(order_date);
 
             // order item element
-            for (OrderItemData o : invoiceData.getOrderItemDataList()){
+            for (OrderItem o : invoiceData.getOrderItemDataList()){
                 DecimalFormat df = new DecimalFormat("#.##");
                 Element order_item = document.createElement("order_item");
 

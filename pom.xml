@@ -6,7 +6,7 @@
 
 
 
-    <groupId>com.increff.training</groupId>
+    <groupId>com.increff.invoice</groupId>
     <artifactId>invoice-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>

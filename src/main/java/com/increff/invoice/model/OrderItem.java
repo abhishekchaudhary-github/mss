@@ -1,6 +1,6 @@
-package model;
+package com.increff.invoice.model;
 
-public class OrderItemData {
+public class OrderItem {
 //    private String barcode;
     private Double sellingPrice;
     private Integer quantity;

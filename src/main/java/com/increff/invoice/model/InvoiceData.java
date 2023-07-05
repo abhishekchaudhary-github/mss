@@ -1,11 +1,11 @@
-package model;
+package com.increff.invoice.model;
 
 import java.util.List;
 
 public class InvoiceData {
     private Integer orderId;
     private String placedDate;
-    private List<OrderItemData> orderItemDataList;
+    private List<OrderItem> orderItemDataList;
 
     private Double amount;
 
@@ -17,11 +17,11 @@ public class InvoiceData {
         this.orderId = orderId;
     }
 
-    public List<OrderItemData> getOrderItemDataList() {
+    public List<OrderItem> getOrderItemDataList() {
         return orderItemDataList;
     }
 
-    public void setOrderItemDataList(List<OrderItemData> orderItemDataList) {
+    public void setOrderItemDataList(List<OrderItem> orderItemDataList) {
         this.orderItemDataList = orderItemDataList;
     }
 

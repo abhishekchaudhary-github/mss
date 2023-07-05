@@ -1,7 +1,7 @@
-package service;
+package com.increff.invoice.service;
 
-import model.InvoiceData;
-import model.OrderItemData;
+import com.increff.invoice.model.InvoiceData;
+import com.increff.invoice.model.OrderItem;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -10,9 +10,9 @@ import java.util.List;
 public class InvoiceService {
     public void getInvoice(InvoiceData form)
     {
-        List<OrderItemData> items = form.getOrderItemDataList();
+        List<OrderItem> items = form.getOrderItemDataList();
         Double amt = 0.0;
-        for(OrderItemData i : items) {
+        for(OrderItem i : items) {
             Double cur = 0.0;
             cur = i.getSellingPrice() * i.getQuantity();
             amt+=cur;

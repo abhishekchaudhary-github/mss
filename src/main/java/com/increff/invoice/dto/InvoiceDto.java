@@ -1,34 +1,26 @@
-package controller;
-
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import model.InvoiceData;
+package com.increff.invoice.dto;
+import com.increff.invoice.model.InvoiceData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import service.InvoiceService;
+        import org.springframework.http.HttpStatus;
+        import org.springframework.http.MediaType;
+        import org.springframework.http.ResponseEntity;
+        import org.springframework.stereotype.Component;
+import com.increff.invoice.service.InvoiceService;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Base64;
+        import java.nio.file.Files;
+        import java.nio.file.Path;
+        import java.nio.file.Paths;
+        import java.util.Base64;
 
-@Api
-@RestController
-public class GenerateInvoiceController {
-
+@Component
+public class InvoiceDto {
     @Autowired
     private InvoiceService service;
-    @ApiOperation(value = "Generate Invoice")
-    @RequestMapping(path = "/api/invoice", method = RequestMethod.POST)
-    public ResponseEntity<byte[]> getInvoicePDF(@RequestBody InvoiceData form) throws IOException {
+
+    public ResponseEntity<byte[]> getInvoicePDF(InvoiceData form) throws IOException {
+
         service.getInvoice(form);
         String _filename = "./generated/invoice_"+form.getOrderId() +".pdf";
         Path pdfPath = Paths.get("./generated/invoice.pdf");

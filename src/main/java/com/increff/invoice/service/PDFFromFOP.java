@@ -1,7 +1,6 @@
-package service;
+package com.increff.invoice.service;
 
 import org.apache.fop.apps.*;
-import org.springframework.beans.factory.annotation.Value;
 
 import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
