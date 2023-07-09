@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
     <xsl:output method="xml" indent="yes"/>
+
+    <!-- Center align the elements in the ID column -->
+    <xsl:template match="fo:table-cell[fo:block = 'ID']">
+        <xsl:copy>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Left align the elements in the Name column -->
+    <xsl:template match="fo:table-cell[fo:block = 'Name']">
+        <xsl:copy>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Center align the elements in the Unit Price column -->
+    <xsl:template match="fo:table-cell[fo:block = 'Unit Price']">
+        <xsl:copy>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Copy all other nodes and attributes unchanged -->
+    <xsl:template match="@* | node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+
     <xsl:template match="/">
         <fo:root>
             <fo:layout-master-set>
@@ -32,15 +63,6 @@
                                         </fo:block>
                                     </fo:table-cell>
                                 </fo:table-row>
-                                <fo:table-row>
-                                    <fo:table-cell padding-left="5pt" padding-top="5pt">
-                                        <fo:block>
-                                            c/o Increff&#x2028;
-                                            Sector 6, HSR Layout&#x2028;
-                                            Bengaluru
-                                        </fo:block>
-                                    </fo:table-cell>
-                                </fo:table-row>
                             </fo:table-body>
                         </fo:table>
                     </fo:block>
@@ -52,6 +74,7 @@
             </fo:page-sequence>
         </fo:root>
     </xsl:template>
+
     <xsl:template match="invoice">
         <fo:block></fo:block>
         <fo:block space-before="120pt" width="17cm" >
@@ -68,8 +91,10 @@
                         </fo:table-cell>
                         <fo:table-cell>
                             <fo:block text-align="left">
-                                <xsl:value-of select="./order_id"></xsl:value-of>&#x2028;
-                                <xsl:value-of select="./order_date"></xsl:value-of>&#x2028;
+                                <xsl:value-of select="./order_id"/>
+                                <xsl:text>&#x2028;</xsl:text>
+                                <xsl:value-of select="./order_date"/>
+                                <xsl:text>&#x2028;</xsl:text>
                             </fo:block>
                         </fo:table-cell>
                     </fo:table-row>
@@ -103,16 +128,14 @@
                     </fo:table-row>
                 </fo:table-header>
                 <fo:table-body>
-                    <xsl:apply-templates select="order_item"></xsl:apply-templates>
-
-
+                    <xsl:apply-templates select="order_item"/>
                     <fo:table-row font-weight="bold">
                         <fo:table-cell number-columns-spanned="4" text-align="right" padding-right="3pt">
                             <fo:block>Total</fo:block>
                         </fo:table-cell>
-                        <fo:table-cell  text-align="right" padding-right="3pt" background-color="#f5f5f5" border="1px solid #b8b6b6" >
+                        <fo:table-cell text-align="right" padding-right="3pt" background-color="#f5f5f5" border="1px solid #b8b6b6">
                             <fo:block>
-                                <xsl:value-of select="amount" />
+                                <xsl:value-of select="amount"/>
                             </fo:block>
                         </fo:table-cell>
                     </fo:table-row>
@@ -150,6 +173,5 @@
                 </fo:block>
             </fo:table-cell>
         </fo:table-row>
-
     </xsl:template>
 </xsl:stylesheet>
