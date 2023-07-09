@@ -2,113 +2,79 @@ package com.increff.invoice.service;
 
 import com.increff.invoice.model.InvoiceData;
 import com.increff.invoice.model.OrderItem;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.text.DecimalFormat;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
 public class CreateXMLFileJava {
-    private String xmlFilePath="./src/main/resources/xml/Invoice.xml";
+    private final String xmlFilePath = "./src/main/resources/xml/Invoice.xml";
+    private final DocumentBuilderFactory documentBuilderFactory;
+    private final DecimalFormat decimalFormat;
+
+    public CreateXMLFileJava() {
+        documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        decimalFormat = new DecimalFormat("#.##");
+    }
+
     public void createXML(InvoiceData invoiceData) {
         try {
-
-            DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
-
-            DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
-
+            DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.newDocument();
 
-            // root element
-            Element root = document.createElement("invoice");
-            document.appendChild(root);
+            Element rootElement = document.createElement("invoice");
+            document.appendChild(rootElement);
 
+            appendElement(rootElement, "order_id", invoiceData.getOrderId().toString());
+            appendElement(rootElement, "order_date", getOrderDate(invoiceData.getPlacedDate()));
 
-            Element order_id = document.createElement("order_id");
-            order_id.appendChild(document.createTextNode(invoiceData.getOrderId().toString()));
-            root.appendChild(order_id);
+            for (OrderItem orderItem : invoiceData.getOrderItemDataList()) {
+                Element orderItemElement = document.createElement("order_item");
+                rootElement.appendChild(orderItemElement);
 
-            Element order_date = document.createElement("order_date");
-            String orderDate=getOrderDate(invoiceData.getPlacedDate());
-            order_date.appendChild(document.createTextNode(orderDate));
-            root.appendChild(order_date);
-
-            // order item element
-            for (OrderItem o : invoiceData.getOrderItemDataList()){
-                DecimalFormat df = new DecimalFormat("#.##");
-                Element order_item = document.createElement("order_item");
-
-                root.appendChild(order_item);
-
-                // set an attribute to staff element
-                Element id = document.createElement("id");
-                id.appendChild(document.createTextNode(o.getOrderItemId().toString()));
-                order_item.appendChild(id);
-
-                // firstname element
-                Element ProductId = document.createElement("product_name");
-                ProductId.appendChild(document.createTextNode(o.getProductName()));
-                order_item.appendChild(ProductId);
-
-                // lastname element
-                Element quantity = document.createElement("quantity");
-                quantity.appendChild(document.createTextNode(o.getQuantity().toString()));
-                order_item.appendChild(quantity);
-
-                Element sellingPrice = document.createElement("selling_price");
-                sellingPrice.appendChild(document.createTextNode(Double.valueOf(df.format(o.getSellingPrice())).toString()));
-                order_item.appendChild(sellingPrice);
-
-                Element amt = document.createElement("amt");
-                amt.appendChild(document.createTextNode(Double.valueOf(df.format(o.getAmt())).toString()));
-                order_item.appendChild(amt);
-
+                appendElement(orderItemElement, "id", orderItem.getOrderItemId().toString());
+                appendElement(orderItemElement, "product_name", orderItem.getProductName());
+                appendElement(orderItemElement, "quantity", orderItem.getQuantity().toString());
+                appendElement(orderItemElement, "selling_price", decimalFormat.format(orderItem.getSellingPrice()));
+                appendElement(orderItemElement, "amt", decimalFormat.format(orderItem.getAmt()));
             }
 
-            Element amount = document.createElement("amount");
-            amount.appendChild(document.createTextNode(invoiceData.getAmount().toString()));
-            root.appendChild(amount);
-            // create the xml file
-            //transform the DOM Object to an XML File
+            appendElement(rootElement, "amount", invoiceData.getAmount().toString());
+
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
             DOMSource domSource = new DOMSource(document);
             StreamResult streamResult = new StreamResult(new File(xmlFilePath));
 
-            // If you use
-            // StreamResult result = new StreamResult(System.out);
-            // the output will be pushed to the standard output ...
-            // You can use that for debugging
-
             transformer.transform(domSource, streamResult);
 
-            System.out.println("Done creating XML File");
+            System.out.println("Done creating XML file.");
 
-        } catch (ParserConfigurationException pce) {
-            pce.printStackTrace();
-        } catch (TransformerException tfe) {
-            tfe.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
-    private String getOrderDate(String placedDate){
-        for(int i=0;i<placedDate.length();i++){
-            if('T' == placedDate.charAt(i)){
-                StringBuffer string = new StringBuffer(placedDate);
-                string.setCharAt(i,' ');
-                placedDate= String.valueOf(string);
-            }
-        }
-        return placedDate;
+    private void appendElement(Element parentElement, String tagName, String textContent) {
+        Document document = parentElement.getOwnerDocument();
+        Element element = document.createElement(tagName);
+        element.setTextContent(textContent);
+        parentElement.appendChild(element);
     }
 
+    private String getOrderDate(String placedDate) {
+        return placedDate.replace("T", " ");
+    }
 }
-
