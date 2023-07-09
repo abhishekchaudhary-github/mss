@@ -1,7 +1,6 @@
 package com.increff.invoice.service;
 
 import org.apache.fop.apps.*;
-
 import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
@@ -24,12 +23,11 @@ public class PDFFromFOP {
             File pdfFile = new File(pdfDir, "invoice.pdf");
 
             FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
-            FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
 
-            OutputStream out = new FileOutputStream(pdfFile);
-            out = new BufferedOutputStream(out);
+            OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile));
 
             try {
+                FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
                 Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
 
                 TransformerFactory transformerFactory = TransformerFactory.newInstance();
@@ -39,7 +37,7 @@ public class PDFFromFOP {
                 Result res = new SAXResult(fop.getDefaultHandler());
 
                 transformer.transform(src, res);
-            } catch (Exception e) {
+            } catch (TransformerException | FOPException e) {
                 e.printStackTrace();
             } finally {
                 out.close();
