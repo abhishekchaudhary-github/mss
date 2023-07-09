@@ -479,3 +479,191 @@
 2023-07-09 22:26:39 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
 2023-07-09 22:26:39 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
 2023-07-09 22:26:39 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:18:16 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:16 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:16 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:16 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:16 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:18:16 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:18:16 WARN  FOUserAgent:97 - The contents of fo:region-before on page 1 exceed the available area in the block-progression direction by 35784 millipoints. (No context info available)
+2023-07-09 23:18:16 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:16 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:18:20 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:20 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:20 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:20 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:20 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:18:20 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:18:20 WARN  FOUserAgent:97 - The contents of fo:region-before on page 1 exceed the available area in the block-progression direction by 35784 millipoints. (No context info available)
+2023-07-09 23:18:20 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:20 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:18:35 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:35 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:18:35 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:18:35 WARN  FOUserAgent:97 - The contents of fo:region-before on page 1 exceed the available area in the block-progression direction by 35784 millipoints. (No context info available)
+2023-07-09 23:18:35 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:35 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:18:41 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:41 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:41 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:41 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:18:41 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:18:41 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:18:41 WARN  FOUserAgent:97 - The contents of fo:region-before on page 1 exceed the available area in the block-progression direction by 35784 millipoints. (No context info available)
+2023-07-09 23:18:41 ERROR FOUserAgent:103 - Image not found. URI: file:../increff.png. (No context info available)
+2023-07-09 23:18:41 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:22:18 ERROR FOUserAgent:103 - Image not found. URI: ../increff.png. (No context info available)
+2023-07-09 23:22:18 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:22:18 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:22:18 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:22:18 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:22:18 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:22:18 WARN  FOUserAgent:97 - The contents of fo:region-before on page 1 exceed the available area in the block-progression direction by 35784 millipoints. (No context info available)
+2023-07-09 23:22:18 ERROR FOUserAgent:103 - Image not found. URI: ../increff.png. (No context info available)
+2023-07-09 23:22:18 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:26:19 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:26:19 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:26:19 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:26:19 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:26:19 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:26:19 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:28:04 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:29:05 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:30:23 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:30:23 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:30:23 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:30:23 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:30:23 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:30:23 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:35:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:35:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:35:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:35:35 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:35:35 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:35:35 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:32 ERROR PropertyMaker:146 - Unknown length unit 'px9'
+2023-07-09 23:39:33 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:33 ERROR PropertyMaker:146 - Unknown length unit 'px9'
+2023-07-09 23:39:33 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:33 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:33 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:39:33 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:39:33 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:39:33 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 ERROR PropertyMaker:146 - Unknown length unit 'px9'
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 ERROR PropertyMaker:146 - Unknown length unit 'px9'
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:42:13 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:42:13 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:42:13 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:35 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:45:35 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:45:35 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:45:45 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:45:45 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:45:45 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:47:36 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:47:36 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:47:37 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:49:01 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:49:01 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:49:02 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-09 23:50:01 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-09 23:50:01 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-09 23:50:02 INFO  FOUserAgent:83 - Rendered page #1.
