@@ -667,3 +667,20 @@
 2023-07-09 23:50:01 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
 2023-07-09 23:50:01 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
 2023-07-09 23:50:02 INFO  FOUserAgent:83 - Rendered page #1.
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:97 - Invalid property value encountered in border="" (No context info available)
+2023-07-16 15:32:54 WARN  FOUserAgent:94 - Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+2023-07-16 15:32:54 WARN  FOUserAgent:94 - Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+2023-07-16 15:32:54 INFO  FOUserAgent:83 - Rendered page #1.
