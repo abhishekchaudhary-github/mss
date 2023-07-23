@@ -82,8 +82,8 @@
                     <fo:table-row>
                         <fo:table-cell>
                             <fo:block text-align="left">
-                                <fo:inline font-weight="bold">Invoice #</fo:inline>&#x2028;
-                                <fo:inline font-weight="bold">Invoice Date</fo:inline>&#x2028;
+                                <fo:inline font-weight="bold">Invoice Number</fo:inline>&#x2028;
+                                <fo:inline font-weight="bold">Date</fo:inline>&#x2028;
                             </fo:block>
                         </fo:table-cell>
                         <fo:table-cell>
@@ -108,19 +108,19 @@
                 <fo:table-header>
                     <fo:table-row background-color="#C4DFDF" text-align="center" font-weight="bold">
                         <fo:table-cell border="1px">
-                            <fo:block>ID</fo:block>
+                            <fo:block>Id</fo:block>
                         </fo:table-cell>
                         <fo:table-cell border="1px">
                             <fo:block>Name</fo:block>
                         </fo:table-cell>
                         <fo:table-cell border="1px">
-                            <fo:block>QTY</fo:block>
+                            <fo:block>Quantity</fo:block>
                         </fo:table-cell>
                         <fo:table-cell border="1px">
                             <fo:block>Unit Price</fo:block>
                         </fo:table-cell>
                         <fo:table-cell border="1px">
-                            <fo:block>AMOUNT</fo:block>
+                            <fo:block>Amount</fo:block>
                         </fo:table-cell>
                     </fo:table-row>
                 </fo:table-header>
