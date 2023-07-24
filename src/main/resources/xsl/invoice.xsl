@@ -55,8 +55,8 @@
                             <fo:table-body>
                                 <fo:table-row font-size="21pt" line-height="30px" background-color="#C4DFDF" color="black">
                                     <fo:table-cell>
-                                        <fo:block text-align="center">
-                                            INVOICE
+                                        <fo:block>
+                                            <fo:external-graphic src="src/main/resources/xsl/logo.png" content-width="18mm"/>
                                         </fo:block>
                                     </fo:table-cell>
                                 </fo:table-row>
